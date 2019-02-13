@@ -18,13 +18,20 @@ $(instructionsText4).text("The value of each crystal is hidden from you until yo
 $(instructionsText5).text("Each time when the game starts, the game will change the values of each crystal.");
 //Append text created to instructions div
 $("#instructions").append(instructionsText1, instructionsText2, instructionsText3, instructionsText4, instructionsText5);
-
+// Creating variable for random number between 19 & 120
+const randomNumber = Math.floor(Math.random() * 100) + 19;
+// Creating a div for randomNumber to occupy
+const randomDiv = $("<div>");
+// Inserting randomNumber into randomDiv
+$(randomDiv).text(randomNumber);
+// Adding randomDiv to HTML
+$("#content").append(randomDiv);
 
 
 
 /* Pseudo Code
 /1. Add title and instructions to the page.
-2. Add random number to the page.
+/2. Add random number to the page.
 3. Add wins/losses to the page
 4. Add crystals to the page.
 5. Add total player score to the page.
