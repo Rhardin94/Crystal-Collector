@@ -19,14 +19,25 @@ $(instructionsText5).text("Each time when the game starts, the game will change 
 //Append text created to instructions div
 $("#instructions").append(instructionsText1, instructionsText2, instructionsText3, instructionsText4, instructionsText5);
 // Creating variable for random number between 19 & 120
+//Making Math.random work how I wanted referenced by #TeamRoPo as well as "https://stackoverflow.com/questions/43791101/how-does-math-floor-math-random-10-1-work"
 const randomNumber = Math.floor(Math.random() * 100) + 19;
 // Creating a div for randomNumber to occupy
-const randomDiv = $("<div>");
+const randomDiv = $("<h3>");
 // Inserting randomNumber into randomDiv
 $(randomDiv).text(randomNumber);
 // Adding randomDiv to HTML
-$("#content").append(randomDiv);
-
+$("#random-number").append(randomDiv);
+//Making variables for wins and losses
+let wins = 0;
+let losses = 0;
+// Creating h3 for wins and losses to display
+let winsText = $("<h3>");
+let lossesText = $("<h3>");
+//Added text to winsText and lossesText
+$(winsText).text("Wins:" + wins);
+$(lossesText).text("Losses: " + losses);
+//Inserting winsText and lossesText to HTML
+$("#wins-losses").append(winsText, lossesText);
 
 
 /* Pseudo Code
