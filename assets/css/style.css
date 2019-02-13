@@ -1,0 +1,40 @@
+body {
+    background-image: url("../images/background-hexagon-1.png");
+}
+#game-title {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin: 5px;
+    padding: 20px 5px;
+    background-color: darkorange;
+    color: whitesmoke;
+    width: 20%;
+}
+#instructions {
+    color: forestgreen;
+    background-color: ivory;
+    width: 30%;
+    height: 200px;
+    padding: 20px;
+}
+#random-number {
+    background-color: darkgreen;
+    width: 14%;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    padding-bottom: 50px;
+    float: left;
+    font-weight: bold;
+    font-size: x-large;
+}
+#wins-losses {
+    float: left;
+    text-align: center;
+    background-color: turquoise;
+    padding: 15px 0px;
+    margin: 5px;    
+    width: 8%;
+    height: 100px;
+}

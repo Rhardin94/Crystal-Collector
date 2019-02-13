@@ -43,7 +43,7 @@ $("#wins-losses").append(winsText, lossesText);
 /* Pseudo Code
 /1. Add title and instructions to the page.
 /2. Add random number to the page.
-3. Add wins/losses to the page
+/3. Add wins/losses to the page
 4. Add crystals to the page.
 5. Add total player score to the page.
 */
