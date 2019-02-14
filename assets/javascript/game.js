@@ -38,12 +38,24 @@ $(winsText).text("Wins:" + wins);
 $(lossesText).text("Losses: " + losses);
 //Inserting winsText and lossesText to HTML
 $("#wins-losses").append(winsText, lossesText);
+//Creating variables assoicated with each crystal
+const redCrystal = $("<img>");
+const blueCrystal = $("<img>");
+const orangeCystal = $("<img>");
+const greenCrystal = $("<img>");
+// Attach each img to the img tag
+redCrystal.attr("src", "assets/images/red.png");
+blueCrystal.attr("src", "assets/images/blue.png");
+orangeCystal.attr("src", "assets/images/orange.png");
+greenCrystal.attr("src", "assets/images/green.png");
+// Added each image to the page, will add data value later
+$("#crystals").append(redCrystal, blueCrystal, orangeCystal, greenCrystal);
 
 
 /* Pseudo Code
 /1. Add title and instructions to the page.
 /2. Add random number to the page.
 /3. Add wins/losses to the page
-4. Add crystals to the page.
+/4. Add crystals to the page.
 5. Add total player score to the page.
 */
