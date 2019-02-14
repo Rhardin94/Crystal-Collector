@@ -50,6 +50,16 @@ orangeCystal.attr("src", "assets/images/orange.png");
 greenCrystal.attr("src", "assets/images/green.png");
 // Added each image to the page, will add data value later
 $("#crystals").append(redCrystal, blueCrystal, orangeCystal, greenCrystal);
+//Creating variables for "your total score is", and user's score
+const scoreTitle = $("<p>");
+const counter = 0;
+const counterText = $("<h3>");
+// Added variable text into dynamically created HTML elements
+scoreTitle.text("Your total score is:");
+counterText.text(counter);
+//Adding text onto HTML
+$("#score-title").append(scoreTitle);
+$("#user-score").append(counterText);
 
 
 /* Pseudo Code
