@@ -103,7 +103,6 @@ $(redCrystal).on("click", function() {
         // Resetting crystal value to a new number
         redCrystal.attr("data-redvalue", Math.floor(Math.random() * 11) + 1);
     } else {
-        counter += redValue;
     }
 })
 //Creating on-click event for blue crystal
@@ -143,7 +142,6 @@ $(blueCrystal).on("click", function() {
         // Resetting crystal value to a new number
         blueCrystal.attr("data-bluevalue", Math.floor(Math.random() * 11) + 1);
     } else {
-        counter += blueValue;
     }
 })
 //Creating on-click event for orange crystal
@@ -183,7 +181,6 @@ $(orangeCrystal).on("click", function() {
         // Resetting crystal value to a new number
         orangeCrystal.attr("data-orangevalue", Math.floor(Math.random() * 11) + 1);
     } else {
-        counter += orangeValue;
     }
 })
 //Creating on-click event for green crystal
@@ -223,7 +220,6 @@ $(greenCrystal).on("click", function() {
         // Resetting crystal value to a new number
         greenCrystal.attr("data-greenvalue", Math.floor(Math.random() * 11) + 1);
     } else {
-        counter += greenValue;
     }
 })
 
