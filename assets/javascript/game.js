@@ -1,6 +1,6 @@
 //Function that wraps everything, makes sure nothing runs until HTML is ready
 $(document).ready(function () {
-	//Creating an h1 for the game title
+//Creating an h1 for the game title
 	const titleText = $("<h1>");
 	// Creating the text for the h1
 	$(titleText).text("CrystalsCollector!");
