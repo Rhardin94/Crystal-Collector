@@ -1,7 +1,10 @@
 body {
-    background-image: url("../images/background-hexagon-1.png");
+    background-image: url("../assets/images/background-hexagon-1.png");
     margin: 5px;
     overflow: auto;
+}
+.container {
+  width: 95%;
 }
 #game-title {
     font-weight: bold;
