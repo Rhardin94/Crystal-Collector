@@ -1,5 +1,5 @@
 # Crystal-Collector
-### Deployed site found here: https://rhardin94.github.io/unit-4-game/
+### Deployed site found here: https://rhardin94.github.io/Crystal-Collector/
 ## Overview
 Crystal-Collector is a single-page dynamic score matching game powered by jQuery. At the beginning of each round, the computer picks a number for the user to try to match via the gems below. Each gem is given a random score at the beginning of the round and each gem click updates the user's score. If the user matches the computer's score, they win, if they go over they lose.
 
